@@ -1,2 +1,2 @@
 ﻿Console.WriteLine("Enter a number:");
-string input = Console.ReadLine();1
+string input = Console.ReadLine();
