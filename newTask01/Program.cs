@@ -6,3 +6,4 @@ if(!int.TryParse(input, out int number))
     return;
 }
 Console.WriteLine("Number accepted: " + number);
+Console.WriteLine("Calculating statistics now...");
