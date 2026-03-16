@@ -21,4 +21,8 @@ public class StatisticsHelper
             if(v > max) max = v;
         return max;
     }
+    public static int CalculateMin(int[] values)
+    {
+        //TODO
+    }
 }
