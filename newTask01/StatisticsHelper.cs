@@ -13,4 +13,12 @@ public class StatisticsHelper
         foreach(var v in values) sum += v;
         return sum / values.Length;
     }
+    public static int CalculateMax(int[] values)
+    {
+        if(values.Length == 0) return int.MinValue;
+        int max = values[0];
+        foreach(var v in values)
+            if(v > max) max = v;
+        return max;
+    }
 }
