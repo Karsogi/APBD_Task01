@@ -1,0 +1,16 @@
+﻿namespace newTask01;
+
+public class StatisticsHelper
+{
+    public static double Average(int a, int b)
+    {
+        return (a + b) / 2.0;
+    }
+    public static double CalculateAverage(int[] values)
+    {
+        if(values.Length == 0) return 0;
+        double sum = 0;
+        foreach(var v in values) sum += v;
+        return sum / values.Length;
+    }
+}
