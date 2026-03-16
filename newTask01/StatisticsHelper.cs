@@ -22,4 +22,8 @@ public class StatisticsHelper
         return max;
         //TO Expand The Logic
     }
+    public static int CalculateMin(int[] values)
+    {
+        //TODO
+    }
 }
