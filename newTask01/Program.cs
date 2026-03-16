@@ -5,3 +5,4 @@ if(!int.TryParse(input, out int number))
     Console.WriteLine("Invalid number!");
     return;
 }
+Console.WriteLine("Number accepted: " + number);
