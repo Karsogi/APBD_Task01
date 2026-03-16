@@ -1,0 +1,2 @@
+﻿This project demonstrates clean Git history, branching, and merges.
+Note: The merge of feature-max was not fast-forward because main had an independent commit (updating the README) that was not in the feature-max branch. Git therefore created a merge commit to combine the histories.
